@@ -1,4 +1,4 @@
-# 🌐 AI-Enabled FinTech B2B Invoice Management Application
+# 🌐 B2B Invoice Management Application
 
 
 ---
