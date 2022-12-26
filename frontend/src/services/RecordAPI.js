@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const RecordUrl = 'http://localhost:8080/Backend-java/';
+const RecordUrl = 'http://localhost:8080/Backend/';
 
 export const getData = async () => {
     let response = await axios.get(`${RecordUrl}`);

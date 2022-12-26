@@ -7,8 +7,13 @@ import { columns } from "./columns"
 
   export default function Table({ selectedRows, selectRow }) {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await getData());
+
+  async function fetchData() {
+    return await getData();
+  }
+
+  useEffect(() => {
+    setData(fetchData());
   }, []);
 
   const rows = data;

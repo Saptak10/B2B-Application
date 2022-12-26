@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import "./popup.css";
 import { wait } from "@testing-library/user-event/dist/utils";
 import { EditData } from "../../../../services/RecordAPI";
-import { Button, Typography } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 
 class Edit extends Component {
   state = {

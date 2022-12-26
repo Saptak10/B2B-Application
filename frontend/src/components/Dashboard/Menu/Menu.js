@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+// import { useEffect } from "react";
 import Toolbar from "./Toolbar";
 import Add from "./Functionalities/Add";
 // import { keys } from "../../../services/Data";
@@ -30,11 +31,12 @@ export default function Menu() {
   const [predictValue, setPredictVal] = useState(initialState.predict);
   const [analyseValue, setAnalyseVal] = useState(initialState.analysis);
   const [AdvanceSearchValue, setAdvanceSearchVal] = useState(initialState.advanceSearch);
-  const [refreshValue, setRefreshVal] = useState(initialState.refresh);
+  // const [refreshValue, setRefreshVal] = useState(initialState.refresh);
 
-  const [searchValue, setSearchVal] = useState(initialState.search);
+  // const [searchValue, setSearchVal] = useState(initialState.search);
 
-  const [mainDataState, setMainDataState] = useState(initialState.data);
+  // const [mainDataState, setMainDataState] = useState(initialState.data);
+  const mainDataState = initialState.data;
   const [addDataState, setAddDataState] = useState(initialState.add);
   const [editDataState, setEditDataState] = useState(initialState.edit);
   const [deleteDataState, setDeleteDataState] = useState(initialState.delete);
